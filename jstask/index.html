@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          //number is positive
+          let x=11
+        if(x>0){
+            document.write("number is positive");
+        }
+        else if(x==0){
+            document.write("number is zero");
+
+        }
+        else{
+            document.write("not");
+        }
+        document.write("<br>");
+   
+   {
+    //even or odd
+        let z=prompt("Enter your Number");
+        if(z%2==0){
+        document.write("number is even")
+        }
+         else {
+            document.write("number is add");
+        }
+        document.write("<br>")
+    }
+    
+   // marriage eligibility
+   {
+     let age=3;
+        if(age>=18){
+            document.write("Eligible");
+        }
+        else{
+            document.write("not eligible")
+        }
+        document.write("<br>")
+   }
+   {
+    //divisible by 5
+    let z=prompt("Enter your Number");
+        if(z%5==0){
+        document.write("number is divisible of 5")
+        }
+         else {
+            document.write("not divisible of 5");
+        }
+        document.write("<br>")
+    }
+    {
+        //greater than 10
+        let p=9;
+        if(p>=10){
+            document.write("Number is greater than")
+        }
+        else{
+            document.write("Numper is less than")
+        }
+        document.write("<br>")
+    }
+    {
+        //Print grade based on marks of a student
+             let mark=97;
+	    if(mark>=90){
+	        document.write("grade:A");
+	    }
+	    else if(mark>=70 && mark<=90){
+	        document.write("grade:B");
+        }
+        else if(mark>=50 && mark<=70){
+	        document.write("grade:C");
+        }
+	    else{
+	     document.write("grade:D");
+	    }
+	    document.write("<br>")
+            
+    }
+    {
+        //number is multiple of 7
+        let z=21
+        if(z%7==0){
+            document.write("number is multiple of 7");
+        }
+        else{
+            document.write("number is not multiple of 7");
+        }
+
+    }
+            {
+                //Print N numbers in sequence
+                for(a=1; a<=15; a++){
+                    document.write(a);
+                    document.write("<br>");
+                }
+            }
+            document.write("<br>");
+            {
+                //Print N numbers in reverse order
+                for(b=20; b>=1;b-- ){
+                    document.write(b);
+                    document.write("<br>")
+                }
+                document.write("<br>")
+            }
+            {
+               // Print first N even numbers
+                    for(x=1; x<=15;x++){
+			        if(x%2==0)
+			        document.write(x);
+                 }
+                 document.write("<br>")
+        }
+            {
+               // Print N odd numbers
+                for(b=1; b<=17; b++){
+			    if(b%2==1)
+			    document.write(b);
+                
+			
+		        }
+                document.write("<br>")
+            }
+            {
+                //Swap Two Numbers Using function
+                function num(m,n){
+                    var t=m; m=n; n=t;
+                     return[m,n]
+                }
+                document.write(num(5,7));
+                
+
+
+            }
+    </script>
+</body>
+</html>
