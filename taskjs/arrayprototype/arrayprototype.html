@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<style>
+	table,tr,th,td,thead{
+			border:1px solid black;
+			border-collapse:collapse;
+		}
+</style>
+</head>
+<body>
+	<table>
+		<thead>Array prototype</thead>
+				<tr>
+					<th>Method</th>
+					<th>Definaiton</th>
+					<th>input</th>
+					<th>out put</th>
+				</tr>
+				<tr>
+					<th>Concat( )</th>
+					<td>concat method is used to merge two or more arrays</td>
+					<td>array1 = ['1', '2', '3'];
+						array2 = ['4', '5', '6'];
+						number=array1.concat(array2)
+
+					</td>
+					
+					<td>["1", "2", "3", "4", "5", "6"]
+				</tr>
+				<tr>
+					<th>Filter()</th>
+					<td>Filter method creates a new array filled with elements that pass a test provided by a function.</td>
+					<td>number[13,17,25,71,75,50]
+					answer>=50
+					</td>
+					<td>71,75,50</td>
+				</tr>
+				<tr>
+					<th>findIndex()</th>
+					<td>findIndex method returns the index (position) of the first element that passes a test.findIndex method returns -1 if no match is found.</td>
+					<td>number['13','10','22', '31','21',]
+					answer>=25;</td>
+					<td>3</td>
+					
+				</tr>
+				<tr>
+					<th>findLastIndex()</th>
+					<td>The find Last Index method iterates the array in reverse order and returns the index of the first element</td>
+					<td>flower=["rose","lilly","lotus","sun flower","tulips","lotus",];
+					let =flower.lastindex("lotus");</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<th> length()</th>
+					<td>The length property returns the length of a string.</td>
+					<td>flower=["rose","lilly","lotus","sun flower","tulips","lotus"]
+						answer=flower.length</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<th>reverse()</th>
+					<td>reverse() method reverses the order of the elements in an array.reverse() method overwrites the original array.</td>
+					<td>const fruits = ["Banana", "Orange", "Apple", "Mango","papaya"];
+					answer=fruits.reverse();</td>
+					<td>papaya,Mango,Apple,Orange,Banana</td>
+				</tr>
+				<tr>
+					<th>map()</th>
+					<td>map() creates a new array from calling a function for every array element.map() calls a function once for each element in an array.</td>
+					<td>const numbers = [4, 9, 16, 25];
+					answer=numbers.map(Math.sqrt);</td>
+					<td>2,3,4,5</td>
+				</tr>
+				<tr>
+					<th> push()</th>
+					<td>push() method adds new items to the end of an array.push() method changes the length of the array.</td>
+					<td>const fruits = ["Banana", "Orange", "Apple", "Mango",]
+					fruits.push("Kiwi", "Lemon");</td>
+					<td>Banana,Orange,Apple,Mango,Kiwi,Lemon</td>
+				</tr>
+				<tr>
+					<th>unshift()</th>
+					<td>The unshift() method adds new elements to the beginning of an array</td>
+					<td>const fruits = ["Banana", "Orange", "Apple", "Mango"];
+					fruits.unshift("Lemon", "Pineapple");</td>
+					<td>Lemon,Pineapple,Banana,Orange,Apple,Mango</td>
+				</tr>
+				<tr>
+					<th>pop()</th>
+					<td>The pop() method removes (pops) the last element of an array.The pop() method changes the original array.</td>
+					<td>const fruits = ["Banana", "Orange", "Apple", "Mango"];
+					fruits.pop();</td>
+					<td>Banana,Orange,Apple</td>
+				</tr>
+				<tr>
+					<th>shift()</th>
+					<td>shift() method removes the first item of an array.</td>
+					<td>cosnt food=["salad","sandwhich","bread","steak","tuna steak"]
+					food.shift();</td>
+					<td>sandwhich,bread,steak,tuna steak</td>
+				</tr>
+				<tr>
+					<th>splice()</th>
+					<td>splice() method adds and/or removes array elements.</td>
+					<td>cosnt food=["salad","sandwhich","bread","steak","tuna steak"]
+					food.splice(2,apple);</td>
+					<td>salad,sandwhich,apple,bread,steak,tuna steak</td>
+				</tr>
+				<tr>
+					<th>LocalTimeString()</th>
+					<td>The toLocaleString() method returns a Date object as a string, using locale settings.</td>
+					<td>date.LocalateTimeString()</td>
+					<td>5.16</td>
+					<td>
+				</tr>
+				<tr>
+					<th>reduce</th>
+					<tr>
+				</tr>
+	</table>
+</body>
+</html>
