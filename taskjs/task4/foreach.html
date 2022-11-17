@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+</head>
+<body>
+		<script>
+			const flower=["rose","lilly","lotus","sun flower","tulips"];
+			const array=[];
+				for(i=0; i<flower.length;i++){
+				array[i]=flower[i].toUpperCase();
+				}
+					console.log(array);
+
+			const array1 = ['a', 'b', 'c'];
+			const array2 = ['d', 'e', 'f'];
+			const array3 = array1.concat(array2);
+
+			console.log(array3);
+			
+			
+			function car(name,price,color,capacity){
+			this.Name=name;
+			this.Price=price;
+			this.Color=color;
+			this.Capacity=capacity
+		}
+		let mob=new car("BMW", 210000,"red", "10");
+		console.log(mob);
+		console.log(mob.Price);
+		
+		function welcome(){
+		document.write("welcome");
+		document.write("<br>");
+		}
+		setInterval(welcome,3000);
+
+
+			</script> 
+</body>
+</html>
