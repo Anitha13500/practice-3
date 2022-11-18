@@ -1,0 +1,53 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+	<script>
+		const fruits={
+			type:'apple',
+			color:'red',
+			price:100,
+			variety:'Gala',
+			Scientificname:'Malus domestica'
+	};
+		for(let fru in fruits){
+			console.log(fru + ":" + fruits[fru]);
+			}
+			const pen={
+				name:'pen',
+				color:'red',
+				'price':'Rs.200 ',
+				variety: 'Fountain pen' ,
+				};
+				for(let pens in pen){
+				console.log(pen["color"])
+			}
+		let fruit=["apple","orange","banana"];
+		for (let frui in fruit){
+		console.log(frui);
+		}
+		let color=["yellow","green","red","blue","pink"];
+		for(let col of color){
+			console.log(col);
+			}
+		{
+		let items=["apple","orange","banana"];
+		for (let item in items){
+		console.log(items[item]);
+		}
+		}
+		//array of object
+		let value =[{
+				name:'pen',
+				color:'green',
+				'price':'Rs.200 ',
+				variety: 'Fountain pen' 
+				}]
+				for(let pens in value){
+				console.log(value [pens]);
+			}
+		
+	</script>
+</body>
+</html>
