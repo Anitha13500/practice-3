@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+</head>
+<body>
+	<fieldset>
+		
+		<label>Amout:<input type="text" id="amount" value="" style="margin-top:1rem;"></label><br>
+		<label>percentage:<input type="text" id="per" value="" style="margin-top:1rem;"></label><br>
+		<label>Tips Amount:<input type="number" id="number" value="" disabled style="margin-top:1rem;"></label><br><br>
+		<label>total:<input type="number" id="total" value="" disabled style="margin-top:1rem;"></label><br><br>
+		
+		<button type="button" id="but" style="padding:0.3rem;">click</button><br>
+	</fieldset>
+	<script>
+		let but=document.getElementById("but");
+		but.addEventListener("click",myfunction);
+		function myfunction(){
+			var input=document.getElementById("amount").value;
+			var input2=document.getElementById("per").value;
+			var num=(input2/100)*input;
+			document.getElementById("number").value=num;
+			var totle=parseInt(input)+parseInt(num);
+			document.getElementById("total").value=totle;
+
+			if(input==="" || isNaN(input)){
+				alert("Enter Amount");
+			}
+			if(input2==="" || isNaN(input2)){
+				alert("Enter Tips Value");
+			}
+		}
+	</script>
+</body>
+<html>
