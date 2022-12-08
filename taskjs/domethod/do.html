@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset/reset.css">
+	<link rel="stylesheet" href="style/style.css">
+	<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+<title></title>
+</head>
+<body>
+	<div class="head">
+		<div class="text">
+			<textarea id="text1" rows="10" cols="25" ></textarea>
+			<button type="button" id="btn" >cilck button</button>
+		</div>
+		<div class="content" id="htag">
+			<!-- <h1 id="para"></h1> -->
+				<!-- <iconify-icon icon="material-symbols:edit-document-outline"></iconify-icon> -->
+				<!-- <iconify-icon icon="material-symbols:delete-outline"></iconify-icon> -->
+		</div>
+	</div>
+<script>
+	let btns=document.getElementById("btn");
+	btns.addEventListener("click", myfunction);
+	function myfunction(){
+		let area =document.getElementById("text1")
+		let add=document.getElementById("htag")
+		let para1=document.createElement("p")
+		add.appendChild (para1)
+		para1.innerHTML=area.value
+		let btn1=document.createElement("button");
+		para1.appendChild(btn1);
+		btn1.innerHTML=("edit");
+		btn1.setAttribute("class","butval");
+		
+		let del=document.createElement("button");
+		para1.appendChild(del);
+		del.innerHTML=("delete");
+		del.setAttribute("class","delval")
+		
+		
+		
+		<!-- document.getElementById("para").innerHTML=area -->
+		
+	}
+</script>
+</body>
+</html>

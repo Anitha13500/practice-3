@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.head{
+	display:flex;
+	justify-content:space-between;
+}
+.text{
+	width:48%;
+}
+.content{
+	width:48%;
+}
+.content iconify-icon{
+	font-size:2.5rem;
+}
+.content h1{
+	font-size:1.5rem;
+}
+/* .butval{ */
+	/* margin-left:1rem; */
+	/* padding:0.3rem; */
+	/* margin-top:1rem; */
+/* } */
+button{
+	margin-top:1rem;
+	margin-left:1rem;
+	padding:0.3rem;
+	border:none;
+	border-radius:15px;
+}
