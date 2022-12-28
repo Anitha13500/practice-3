@@ -14,7 +14,7 @@
 	right:0;
 	left:0;
 	bottom:0;
-	z-index:1;
+	z-index:999;
 }
 .nav-link:hover{
 	color:#eb5d1!important;
@@ -43,8 +43,8 @@
 	color:#797D7F ;
 }
 .page1 img{
-	margin-top:5rem;
-	padding-bottom:5rem;
+	margin-top:3rem;
+	padding-bottom:3rem;
 	width:100%;
 	position:relative;
 	animation:move 3s infinite;
@@ -158,9 +158,10 @@ to{
 	display:block;
 	}
 }	
-/* fintsh */
+/* finish */
 .page3{
 	text-align:center;
+	
 }
 .ipsum{
 	background-color:white;
@@ -300,8 +301,8 @@ to{
 }
 /* finish */
 .page5{
-	margin-top:2rem;
-	padding-bottom:5rem;
+	/* margin-top:2rem; */
+	/* padding-bottom:5rem; */
 	background-color:#FEF8F5;
 }
 .accordion-item{
@@ -395,12 +396,23 @@ text-align:center;
 .page7{
 	width:100%;
 	padding-top:2rem;
-	padding-bottom:5rem;
+	/* padding-bottom:5rem; */
 	background-color:#FEF8F5;
 }
-.client img{
-	width:100%;
-	padding:1rem;
+@media (min-width:375px){
+	.owl-carousel{
+		width:100%;
+	}
+	.team-play {
+		margin:auto;
+		width:30%;
+	}
+@media (min-width:375px){
+	.team-play {
+		margin:auto;
+		width:50%;
+	}
+}
 }
 /* finish */
 .page8{
@@ -503,11 +515,11 @@ text-align:center;
    padding-bottom:3rem;
 }
 .page10 h4{ 
-font-size:1.3rem;
+font-size:1.7rem;
 font-weight:600;
 }
 .page10 p{ 
-font-size:0.9rem;
+font-size:1rem;
 line-height:2;
 }
 	.usefullink ul, li{
@@ -529,7 +541,7 @@ line-height:2;
 	text-decoration:none;
 	color:black;
 	line-height:2.5;
-	font-size:15px;
+	font-size:1rem;
 }
 .twitter{
 	width:100%;

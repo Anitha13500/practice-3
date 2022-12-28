@@ -8,8 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
 	<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
-	<link rel="stylesheet" href="task1/jsfile/owl.carousel.min.css">
-	<link rel="stylesheet" href="task1/jsfile/owl.theme.default.min.css">
+	<link rel="stylesheet" href="jsfile/owl.carousel.min.css">
+	<link rel="stylesheet" href="jsfile/owl.theme.default.min.css">
 
     <title></title>
   </head>
@@ -17,7 +17,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 		<div class="top">
 	    <div class="container-fluid">
-		    <div class="topnav d-flex justify-content-around pt-3 pb-3 shadow-sm bg-body rounded">
+		    <div class="topnav d-flex justify-content-around pt-3 pb-3  bg-body rounded">
 				<div class="logo d-flex align-items-center justify-content-center">		
 				    <a class="navbar-brand" href="#">NINESTAR</a>
 				</div>
@@ -75,14 +75,14 @@
 		<div class="page1">
 			<section class="container">
 				<div class="row ">
-					<div class="col col-12 col-md-6 col-sm-6" id="Home">
+					<div class="col-sm-12 col-md-12 col-lg-6 order-1 order-lg-1" id="Home">
 						<div class="head">
 							<h1>Bettter digital experience with Ninestars</h1>
 							<p>We are team of talented designers making websites with Bootstrap</p>
 							<button type="button">Get Started</button>
 						</div>
 					</div>
-					<div class="col col-12 col-md-6 col-sm-6">
+					<div class="col-sm-12 col-md-12 col-lg-6 order-0 order-lg-1 ">
 						<img  class="img1"src="image/hero-img.svg" width="100%">
 					</div>
 				</div>
@@ -92,7 +92,7 @@
 		<div class="page2">
 			<section class="container">
 				<div class="row" id="About">
-					<div class="col-sm-12 col-md-12 col-lg-6">
+					<div class="col-sm-12 col-md-12 col-lg-6 ">
 						<img src="image/about-img.svg">
 					</div>
 				
@@ -336,80 +336,83 @@
 						<h3>F.A.Q</h3>
 						<h1>Frequently Asked Questions</h1>
 					</div>
-					<div class="accordion" id="accordionExample">
-					    <div class="accordion-item">
-							<h2 class="accordion-header" id="headingOne">
-							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					<div class="faq">
+					<div class="accordion accordion-flush mt-5" id="accordionFlushExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingOne">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
 							Non consectetur a erat nam at lectus urna duis?
 							</button>
 							</h2>
-							<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+							<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
 								<div class="accordion-body">
 									Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
 								</div>
 							</div>
 						</div>
 						<div class="accordion-item">
-							<h2 class="accordion-header" id="headingTwo">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
-								</button>
+							<h2 class="accordion-header" id="flush-headingTwo">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+							Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+							</button>
 							</h2>
-							<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+							<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
 								<div class="accordion-body">
 									Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
 								</div>
-								</div>
+							</div>
 						</div>
-					    <div class="accordion-item">
-							<h2 class="accordion-header" id="headingThree">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 		data-bs-target="#collapseThree" aria-expanded="false" aria-controls=	"collapseThree">
-								Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
-								</button>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingThree">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+							Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+							</button>
 							</h2>
-							<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+							<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
 								<div class="accordion-body">
 									Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
 								</div>
 							</div>
 						</div>
-				        <div class="accordion-item">
-							<h2 class="accordion-header" id="headingfour">
-								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
-								Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
-								</button>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingFour">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+							Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+							</button>
 							</h2>
-							<div id="collapsefour" class="accordion-collapse collapse show" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-							</div>
+							<div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">
+									Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+								</div>
 							</div>
 						</div>
-					    <div class="accordion-item">
-							<h2 class="accordion-header" id="headingfive">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-								Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
-								</button>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingFive">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+							Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+							</button>
 							</h2>
-							<div id="collapsefive" class="accordion-collapse collapse" 			aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+							<div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
 								<div class="accordion-body">
 									Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
 								</div>
 							</div>
 						</div>
 						<div class="accordion-item">
-							<h2 class="accordion-header" id="headingsix">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-								Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
-								</button>
+							<h2 class="accordion-header" id="flush-headingSix">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+							Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+							</button>
 							</h2>
-							<div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+							<div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
 								<div class="accordion-body">
 									Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
 								</div>
 							</div>
 						</div>
 					</div>
+				</div>
+					
 			</section>
 		</div>
 		<!-- finish -->
@@ -491,59 +494,122 @@
 			</section>
 		</div>
 		<!-- finish -->
-		
-			<section class="container">
+		<section id="clients" class="py-5">
+		<div class="container">
+			<div class="row">
 				<div class="service">
 					<h3>Clients</h3>
 					<h1>They trusted us</h1>
 				</div>
+			</div>
+			<div class="owl-carousel brand carousel owl-theme pt-5">
+				<div class="team-play items">
+					<img src="image\clients\client-1.png">
+				</div>
+				<div class="team-play items">
+					<img src="image\clients\client-2.png">
+				</div>
+				<div class="team-play items">
+					<img src="image\clients\client-3.png">
+				</div>
+				<div class="team-play items">
+					<img src="image\clients\client-4.png">
+				</div>
+				<div class="team-play items">
+					<img src="image\clients\client-5.png">
+				</div>
+				<div class="team-play items">
+					<img src="image\clients\client-6.png">
+				</div>
+				<div class="team-play items">
+					<img src="image\clients\client-7.png">
+				</div>
+				<div class="team-play items">
+					<img src="image\clients\client-8.png">
+				</div>
+			</div>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+			<script src="jsfile/owl.carousel.min.js"></script>
+			<script>
+				$('.brand').owlCarousel({
+					loop: true,
+					margin: 10,
+					nav: true,
+					autoplay: true,
+					autoplayTimeout: 2000,
+					autoplayHoverPause: true,
+					responsive: {
+						0:{
+							items: 1
+						},
+						600:{
+							items: 3
+						},
+						1000:{
+							items: 6
+						}
+					}
+				})
+			</script>
+			<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>	
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+			
+		
+		</div>
+	</section>
+			<!-- <section class="container"> -->
+				<!-- <div class="service"> -->
+					<!-- <h3>Clients</h3> -->
+					<!-- <h1>They trusted us</h1> -->
+				<!-- </div> -->
 				
-				<div class="row">
-					<div class="col-sm-3 col-md-3 col-lg-2">
-						<div class="client">
-							<img src="image/clients/client-1.png">
-						</div>
-					</div>
-					<div class="col-sm-3 col-md-3 col-lg-2">
-						<div class="client">
-							<img src="image/clients/client-2.png">
-						</div>
-					</div>
-					<div class="col-sm-3 col-md-3 col-lg-2">
-						<div class="client">
-							<img src="image/clients/client-3.png">
-						</div>
-					</div>
-					<div class="col-sm-3 col-md-3 col-lg-2">
-						<div class="client">
-							<img src="image/clients/client-4.png">
-						</div>
-					</div>
-					<div class="col-sm-3 col-md-3 col-lg-2">
-						<div class="client">
-							<img src="image/clients/client-5.png">
-						</div>
-					</div>
-					<div class="col-sm-3 col-md-3 col-lg-2">
-						<div class="client">
-							<img src="image/clients/client-6.png">
-						</div>
-					</div>
-					<!-- <!-- <div class="col-sm-12 col-md-6 col-lg-1"> -->
+				<!-- <div class="row"> -->
+					<!-- <div class="col-sm-3 col-md-3 col-lg-2"> -->
 						<!-- <div class="client"> -->
-							<!-- <img src="image/clients/client-7.png" width="100%;"> -->
+							<!-- <img src="image/clients/client-1.png"> -->
 						<!-- </div> -->
 					<!-- </div> -->
-					<!-- <div class="col-sm-12 col-md-6 col-lg-1"> -->
+					<!-- <div class="col-sm-3 col-md-3 col-lg-2"> -->
 						<!-- <div class="client"> -->
-							<!-- <img src="image/clients/client-8.png" width="100%;"> -->
+							<!-- <img src="image/clients/client-2.png"> -->
 						<!-- </div> -->
-					<!-- </div> --> 
-					</section>
-				</div>
+					<!-- </div> -->
+					<!-- <div class="col-sm-3 col-md-3 col-lg-2"> -->
+						<!-- <div class="client"> -->
+							<!-- <img src="image/clients/client-3.png"> -->
+						<!-- </div> -->
+					<!-- </div> -->
+					<!-- <div class="col-sm-3 col-md-3 col-lg-2"> -->
+						<!-- <div class="client"> -->
+							<!-- <img src="image/clients/client-4.png"> -->
+						<!-- </div> -->
+					<!-- </div> -->
+					<!-- <div class="col-sm-3 col-md-3 col-lg-2"> -->
+						<!-- <div class="client"> -->
+							<!-- <img src="image/clients/client-5.png"> -->
+						<!-- </div> -->
+					<!-- </div> -->
+					<!-- <div class="col-sm-3 col-md-3 col-lg-2"> -->
+						<!-- <div class="client"> -->
+							<!-- <img src="image/clients/client-6.png"> -->
+						<!-- </div> -->
+					<!-- </div> -->
+					<!-- <div class="col-sm-12 col-md-6 col-lg-1">
+						<div class="client">
+							<img src="image/clients/client-7.png" width="100%;">
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-1">
+						<div class="client">
+							<img src="image/clients/client-8.png" width="100%;">
+						</div>
+					<!-- <!-- <!-- <!-- </div> -->    
+			<!-- </section> -->
+			<!-- </div> -->
 				
 			
-		</div>
+		<!-- </div> -->
 		<div class="page8">
 			<section class="container">
 				<div class="service" id="Contact">
@@ -588,7 +654,7 @@
 								</div>
 								<div class="form-group col-md-12 mt-2">
 									<label for="name">Subject</label>
-									<input type="text" id="name" class="form-control" placeholder="Subjdct">
+									<input type="text" id="name" class="form-control" placeholder="Subject">
 								</div>
 								<div class="form-group col-md-12 mt-4">
 									<label for="name">Message</label>
