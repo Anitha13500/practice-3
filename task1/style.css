@@ -1,23 +1,20 @@
 .page1{
 	background-color:#FEF8F5;
-	padding-bottom:5rem;
+	padding-bottom:1rem;
 }
-.navbar-brand{
-	color:#7E6D64;
-}
+
 .nav-item{
 	font-size:1rem;
-}
-.top{
-	position:sticky;
-	top:0;
-	right:0;
-	left:0;
-	bottom:0;
-	z-index:999;
+	color:#7E6D64;
 }
 .nav-link:hover{
-	color:#eb5d1!important;
+	color:#eb5d1e !important;
+}
+.nav-link{
+	font-size:1rem;
+}
+.navbuttons{
+	background-color:#eb5d1e !important;
 }
 .started {
 	background-color:#eb5d1e;
@@ -65,8 +62,9 @@ to{
 	font-size:1.2rem;
 }
 .page2{
-	padding-top:2rem;
-	padding-bottom:4.5rem;
+	/* padding-top:5rem; */
+	/* padding-bottom:5rem; */
+	padding:3, 0;
 }
 .page2 img{
 	width:100%;
@@ -80,6 +78,7 @@ to{
 	font-weight:700;
 	margin-top:3rem;
 	color:#4E4039;
+	
 }
 .page2 p{
 	color:#878F97;
@@ -94,7 +93,7 @@ to{
 /* 2page finish */
 .page3{
 	background-color:#FEF8F5;
-	padding-top:2.5rem;
+	padding-top:5rem;
 	padding-bottom:5rem;
 }
 .service h3{
