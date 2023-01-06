@@ -1,0 +1,64 @@
+.container{
+	width:85%;
+	margin:auto;
+}
+.resume{
+	width:100%;
+	
+}
+.head{
+	width:100%;
+	
+	text-align:center;
+}
+.head h1{
+	font-size:20px;
+	margin-top:20vh;
+}
+.head p{
+	font-size:21px;
+}
+.head p a{
+	text-decoration:none;
+}
+.head1 h1{
+	font-size:20px;
+}	
+.head1 blockquote{
+	font-size:20px;
+}
+.head1 p{
+	font-size:30px;
+}
+@media(min-width:360px){
+		h1{
+		font-size:15px;
+	}
+	 p{
+		font-size:17px;
+	}
+}
+@media(min-width:768px){
+	 h1{
+		font-size:19px;
+	}
+	 p{
+		font-size:20px;
+	}
+}
+@media(min-width:992px){
+	h1{
+		font-size:21px;
+	}
+	p{
+		font-size:23px;
+	}
+}
+@media(min-width:1200px){
+	 h1{
+		font-size:25px;
+	}
+	p{
+		font-size:27px;
+	}
+}
