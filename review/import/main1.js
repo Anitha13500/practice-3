@@ -3,4 +3,5 @@ import {
 }
 from 
 	"./main2.js"
-	console.log("add")
+	console.log(add)
+ 
