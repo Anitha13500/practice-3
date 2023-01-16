@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+		<P id="date"> </p>
+		<P id="date1"> </p>
+<script>
+	let name=prompt("Enter a Name");
+		let value=prompt("Enter a CheckLeter");
+		let c=0;
+		let result=count(name,value);
+		function count(name,value){
+			for (i=0; i< name.length; i++){
+				
+				if (name[i]== value){
+					c++;
+				}    
+			}
+			if(c){
+				console.log( c + " word Match");
+			}
+			
+			else{
+				console.log("This Word  Not Match");
+			}
+		}
+		
+		
+		<!-- var value=new data(); -->
+		<!-- document.weite("Date value" + date); -->
+		<!-- function time(){ -->
+			<!-- var value=new data(); -->
+			<!-- var time=value.toLocaleTimeString(); -->
+			<!-- document.getElementById("date").innerHTML=time; -->
+		<!-- } -->
+		<!-- setInterval(timer,1000) -->
+		
+	
+		
+		<!-- let name=prompt("Enter a Name"); -->
+		<!-- let value=prompt("Enter a CheckLeter"); -->
+		<!-- let c=0; -->
+		
+		
+			<!-- for (i=0; i< name.length; i++){ -->
+				
+				<!-- if (name[i]== value){ -->
+					<!-- c++; -->
+				<!-- } -->
+			<!-- } -->
+			<!-- if(c){ -->
+				<!-- console.log(c + " word Match"); -->
+			<!-- } -->
+			<!-- else{ -->
+				<!-- console.log("This Word  Not Match"); -->
+			<!-- } -->
+			
+			var z=Date()
+			console.log(z);
+			
+			
+			var e=new Date("13 may 2000")
+			 console.log(e.getFullYear())
+			 console.log(e.getDay())
+			 console.log(e.getDate())
+		
+			
+			
+		
+		
+		
+</script>
+</body>
+<html>
