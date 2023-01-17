@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Random color generator</title>
+  <style>
+    body {
+      background-color: #000000;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    
+
+    button {
+      background-color: #ffffff;
+      color: #000000;
+      font-size: 20px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+ 
+      cursor: pointer;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <h1>Random color</h1>
+  
+   
+    <button onclick="changeColor()">Click Button</button>
+  
+  <script>
+    function changeColor() {
+      let color = '#';
+      let digit = '0123456789ABCDEF';
+      for (let i = 0; i < 6; i++) {
+
+        let random = Math.floor(Math.random() * 16);
+      
+        color += digit[random];
+      }
+      
+      document.body.style.backgroundColor = color;
+    }
+	
+	
+	
+
+  </script>
+</body>
+
+</html>
