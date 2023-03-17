@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-eqiv="X-UA-compatible" content="IE=Rdge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>pattern</title>
+</head>
+<body>
+	<script>
+// star pattern
+		
+		let num = 5;
+        var str = "";
+        for (let i = 1; i <= num; i++) {
+           for (let j = 0; j < i; j++) {
+              str += "*";
+           }
+           str += "\n";
+        }
+		console.log(str)
+        for (let i = 1; i <= num - 1; i++) {
+           for (let j = 0; j < num - i; j++) {
+              str += "*";
+            }
+            str += "\n";
+        }
+        console.log(str);
+		
+		let number= 7;
+		let strr="";
+		for (i=1; i<=number; i++ ){
+			for (j=1; j<=i; j++){
+				strr+=" ";
+			}
+			strr+="\n";
+			
+			for (k=0; k<2*i-1; k++){
+				strr+="*";
+			}
+			strr+-"\n"
+			}
+		
+		console.log(strr)
+		
+		var n=5;
+		var string="";
+		for(i=1; i<=n; i++){
+			for (j=1; j<=i; j++) {
+			 string+= " "
+			 }
+			 for (k=0; k<2*i-1; k++){
+			 string +="*";
+		}
+		string+= "\n";
+		}
+		console.log(string);
+		
+		
+		//Square Star Pattern
+			var n=5;
+			var  string="";
+			for (i=0; i<n; i++){
+				for (j=0; j<n;j++){
+					string +="*";
+				}
+				string +="\n";
+			}
+			console.log(string)
+			
+		// Hollow Square Pattern
+		
+		var n=5;
+		var string="";
+		
+		for (i=0; i<n; i++){
+			for (j=0; j<n; j++ ){
+				if(i==0||i==n-1){
+					string += "*"
+				}
+				
+				else {
+						if(j === 0 || j === n - 1) {
+							string += "*";
+					}
+					else{
+						string+=" "
+					}
+				}
+				
+			}
+			 string += "\n";
+		}
+		console.log(string)
+		
+		
+		// Right Triangle Pattern 
+		var n=5;
+		var str="";
+		
+		for(i=0; i<=n; i++){
+			for (j=0; j<n-i; j++){
+				string += " ";
+			}
+			for (k=0; k<i; k++){
+				string +="*";
+			}
+			string +="\n"
+		
+		}
+		console.log(string)
+		
+		//// left Triangle Pattern 
+		var n=5;
+		var str="";
+		
+		for(i=0; i<=n; i++){
+			for (j=0; j<n-1; j++){
+				string += " ";
+			}
+			for (k=0; k<i; k++){
+				string +="*";
+			}
+			string +="\n"
+		
+		}
+		console.log(string)
+		
+		// Downward Triangle Star
+			var n=5;
+			var string="";
+			
+			for (i=0; i<=n; i++){
+				for (j=0; j<n-i; j++){
+					string +="*";
+				}
+				string +="\n"
+			}
+			console.log(string)
+			
+		//Hollow Triangle Star Pattern
+		
+		var n=7;
+		var string="";
+		
+		for (i=0; i<=n; i++){
+			for(j=0; j<i; j++){
+				if(i===n){
+					string+="*"
+				}
+				else{
+					if(j==0||j==i-1) {
+						string +="*"
+					}
+					else {
+						string +="";
+					}
+				}
+			}
+			string +="\n";
+		}
+		console.log(string)
+		
+//patten
+		var n = 6;
+		var string = "";
+
+		for (let i = 1; i <= n; i++) {
+			for (let j = 0; j < i; j++) {
+				if(i === n) {
+					string += "*";
+				}
+		else {
+			if (j == 0 || j == i - 1) {
+				string += "*";
+			}
+			else {
+				string += " ";
+			}
+		}
+	}
+		string += "\n";
+	}
+	console.log(string);
+	
+		//Pyramid Pattern
+			var n=5;
+			var string="";
+			for (i=1; i<=n; i++){
+				for (j=1; j<=n-i; j++){
+					string +=" ";
+				}
+			for (k=0; k<2*i-1; k++){
+				string +="*";
+			}
+			string += "\n";
+			
+			}
+			console.log(string)
+			
+		//Reversed Pyramid Star Pattern
+		var n=5;
+		var string="";
+		
+		for (i=0; i<n; i++){
+			for (j=0; j<i; j++){
+				string +=" ";
+			}
+			for (k=0; k<2*(n-i)-1; k++){
+				string +="*";
+			}
+			string +="\n";
+		}
+		console.log(string)
+		
+		//Hollow Pyramid Star Pattern
+		var n=5;
+		var string="";
+		for (i=0;i<=n; i++){
+			for (j=0;j<=n-i; j++){
+				string +="";
+			}
+			for ( k=0; k<2*(i-1);k++){
+				if (i==1||i==n){
+					string +="*"
+				}
+				else{
+					if (k===0||k<2*i-2){
+						string +="*"
+					}
+				else {
+					string += " ";
+				}
+			}
+				
+		}
+			string +="\n"
+	}
+		console.log(string)
+	
+		//Hollow Pyramid Star Pattern
+			var n = 5;
+			var string = "";
+	
+		// External loop
+		for (let i = 1; i <= n; i++) {
+			// printing spaces
+				for (let j = 1; j <= n - i; j++) {
+					string += " ";
+				}
+			// printing star
+				for (let k = 0; k < 2 * i - 1; k++) {
+					if(i === 1 || i === n) {
+						string += "*";
+					}
+					else {
+							if(k === 0 || k === 2 * i - 2) {
+							string += "*";
+						}
+						else {
+							string += " ";
+						}
+					}
+				}
+				string += "\n";
+		}
+console.log(string);
+		
+		// reversed
+     	var str = 'Education';
+		let tem = '';
+		
+		for(i=str.length-1; i>=0; i--){
+		   tem+=str[i];
+		}
+		console.log(tem)
+		
+		// vowels
+			
+		 <!-- var x=prompt('enter Name'); -->
+		 <!-- y=0;  -->
+		 <!-- vowels="aeiouAEIOU"; -->
+			<!-- for (i=0; i< x.length; i++){ -->
+				<!-- for (j=0; j <= vowels.length;j++){ -->
+					<!-- if (x[i]==vowels[j]){ -->
+						<!-- y++; -->
+					<!-- } -->
+				<!-- } -->
+			<!-- } -->
+			<!-- if(y){ -->
+				<!-- console.log("this word has "+ y + " vowles"); -->
+			<!-- } -->
+			<!-- else{ -->
+				<!-- console.log("this word has no vowels"); -->
+			<!-- } -->
+		</script>
+</body>
+</html>
