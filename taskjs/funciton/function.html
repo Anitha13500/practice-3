@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+</head>
+<body>
+	<script>
+		<!-- function ani(number1,number2){ -->
+					<!-- total=(number1*number2) -->
+					<!-- console.log(total) -->
+					<!-- } -->
+					<!-- ani(5,2) -->
+					
+		<!-- var a=prompt("enter value"); -->
+					<!-- var b=[]; -->
+					<!-- for(i=0;i<a;i++){ -->
+						<!-- var c={ -->
+						<!-- Name:"name", -->
+						<!-- rollnumber:"rollnumber", -->
+						<!-- qualification:"qualification", -->
+						<!-- }; -->
+						<!-- d=prompt("enter name"); -->
+						<!-- c.Name=d; -->
+						<!-- e=prompt("enter rollnumber"); -->
+						<!-- c.rollnumber=e; -->
+						<!-- f=prompt("enter qualification"); -->
+						<!-- c.qualification=f; -->
+						<!-- b[i]=c -->
+					<!-- } -->
+					<!-- console.log(b); -->
+						
+					
+					
+				<!-- //next				 -->
+		var a=prompt("enter value");
+					var b=[];
+					function person(val){
+					for(i=0;i<a;i++){
+						var c={
+						Name:"name",
+						rollnumber:"rollnumber",
+						qualification:"qualification",
+						};
+						d=prompt("enter name");
+						c.Name=d;
+						e=prompt("enter rollnumber");
+						c.rollnumber=e;
+						f=prompt("enter qualification");
+						c.qualification=f;
+						b[i]=c
+					}
+					return(b)
+					}	
+					person(a)
+					console.log(b);
+					
+					//next to
+					
+					<!-- var a=prompt("enter main length"); -->
+		
+					<!-- let m=object(a); -->
+					<!-- console.log(m); -->
+					<!-- let x=prompt("enter main index"); -->
+					<!-- let y=prompt("enter inner index"); -->
+					<!-- if(x<m.length){ -->
+						<!-- console.log(m[x][y]); -->
+					<!-- } -->
+					<!-- else{  -->
+						<!-- console.log("not index"); -->
+					<!-- } -->
+					<!-- function object(p){ -->
+						<!-- var b=[]; -->
+						<!-- for(i=0;ip<;i++){ -->
+							<!-- var d=prompt("enter inner length"); -->
+							<!-- if(d==0){ -->
+								<!-- D=prompt("enter number"); -->
+							<!-- } -->
+							<!-- else { -->
+								<!-- c=[]; -->
+								<!-- for(j=0;j<d;j++){ -->
+									<!-- var e=prompt("enter values"); -->
+									<!-- c[j]=e; -->
+									<!-- b[i]=c; -->
+								<!-- } -->
+							<!-- }     	 	 -->
+						<!-- } -->
+						<!-- return b; -->
+					<!-- } -->
+					
+					
+					
+					
+					//next 1
+					<!-- var a=prompt("enter value"); -->
+					<!-- var b=[]; -->
+					<!-- var c; -->
+					<!-- s=person(a) -->
+					
+					<!-- function person(val){ -->
+					<!-- var b=[]; -->
+					<!-- for(i=0;i<a;i++){ -->
+						<!-- var c={ -->
+						<!-- Name:"name", -->
+						<!-- rollnumber:"rollnumber", -->
+						<!-- qualification:"qualification", -->
+						<!-- }; -->
+						<!-- d=prompt("enter name"); -->
+						<!-- c.Name=d; -->
+						<!-- e=prompt("enter rollnumber"); -->
+						<!-- c.rollnumber=e; -->
+						<!-- f=prompt("enter qualification"); -->
+						<!-- c.qualification=f; -->
+						<!-- b[i]=c -->
+					<!-- } -->
+					<!-- return(b) -->
+					<!-- }	 -->
+					<!-- console.log(s); -->
+					
+					<!-- function value (array){ -->
+						<!-- var n=prompt("enter get  name"); -->
+						<!-- var o=[]; -->
+						<!-- for(i=0; i<array.length; i++){ -->
+							<!-- if(array[i].Value===n){ -->
+								<!-- console.log(array[i]); -->
+							<!-- } -->
+							<!-- o=array[i] -->
+						<!-- } -->
+							<!-- return o; -->
+					<!-- } -->
+					<!-- p=value(s) -->
+					<!-- console.log(p)				 -->
+					
+					//next 2
+						function arrayname(m){            
+						var b=[];
+						var c;
+						for(i=0; i<m; i++){
+						   d=parseInt(prompt("create inner array"));
+						   if(d==0){
+							  d=parseInt(prompt("create single array"));
+							  b[i]=d;
+						   }
+						   else{
+							  c=[];
+							  for(j=0; j<d; j++){
+								 e=parseInt(prompt("inner array value"));
+								 c[j]=e;
+							  }
+							  b[i]=c;
+						   }
+						}
+						return b;
+					 };
+					 
+					  function funname(one){
+						if(x<f.length){
+						   if(typeof f[one]=="number"){
+							  t=(f[one]);
+							  return t;
+						   }
+						   else{
+							  if(typeof f[one]=="object"){
+								 var y=parseInt(prompt("enter the check index"));
+								 q=f[one]
+								 [y];
+								 return q;
+							  }
+						   }
+						}
+					 };
+					 
+					 var z=parseInt(prompt("enter the number"));
+					 var f=arrayname(z);
+					 console.log(f);
+
+					 var x=parseInt(prompt("enter the check index"));
+					 var second=funname(x);
+					 console.log(second);
+					 
+					 function name(q){
+						let mainvalue=prompt("enter index value");
+						let sub=prompt("enter delect value ");
+						mainvalue=sub;
+						console.log(q)
+					 }
+					 
+					 
+					 
+					 
+					 
+	</script>
+</body>
+</html>
